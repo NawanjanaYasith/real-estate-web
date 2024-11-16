@@ -3,6 +3,7 @@ import './App.css'
 import Header from "../components/Header.jsx";
 import Projects from "../components/Projects.jsx";
 import About from "../components/About.jsx";
+import Testimonials from "../components/Testimonials.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,8 +11,9 @@ function App() {
   return (
     <div className={'w-full overflow-hidden'}>
         <Header/>
-        <Projects/>
         <About/>
+        <Projects/>
+        <Testimonials/>
     </div>
   )
 }
