@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Header from "../components/Header.jsx";
+import Projects from "../components/Projects.jsx";
 import About from "../components/About.jsx";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className={'w-full overflow-hidden'}>
         <Header/>
+        <Projects/>
         <About/>
     </div>
   )
